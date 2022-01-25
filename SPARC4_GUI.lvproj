@@ -27,6 +27,7 @@
 		<Item Name="Optics.lvclass" Type="LVClass" URL="../Device/Optics/Optics.lvclass"/>
 		<Item Name="Opt_Selector.lvclass" Type="LVClass" URL="../Device/Optics/Opt_Selector/Opt_Selector.lvclass"/>
 		<Item Name="Opt_Continuous.lvclass" Type="LVClass" URL="../Device/Optics/Opt_Continuous/Opt_Continuous.lvclass"/>
+		<Item Name="JSON reader.lvclass" Type="LVClass" URL="../JSON reader/JSON reader.lvclass"/>
 		<Item Name="S4ACS_GUI.vi" Type="VI" URL="../S4ACS_GUI.vi"/>
 		<Item Name="StreamReceiveAcquisitionChA.vi" Type="VI" URL="../StreamReceiveAcquisitionChA.vi"/>
 		<Item Name="StreamReceiveAcquisitionChB.vi" Type="VI" URL="../StreamReceiveAcquisitionChB.vi"/>
@@ -40,7 +41,6 @@
 		<Item Name="StreamTransmitSyncBox.vi" Type="VI" URL="../StreamTransmitSyncBox.vi"/>
 		<Item Name="StreamTransmitInstrument.vi" Type="VI" URL="../StreamTransmitInstrument.vi"/>
 		<Item Name="StreamReceiveInstrument.vi" Type="VI" URL="../StreamReceiveInstrument.vi"/>
-		<Item Name="JSON reader.lvclass" Type="LVClass" URL="../JSON reader/JSON reader.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
