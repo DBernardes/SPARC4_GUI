@@ -39,8 +39,10 @@
 		<Item Name="StreamTransmitAcquisitionChD.vi" Type="VI" URL="../StreamTransmitAcquisitionChD.vi"/>
 		<Item Name="StreamReceiveSyncBox.vi" Type="VI" URL="../StreamReceiveSyncBox.vi"/>
 		<Item Name="StreamTransmitSyncBox.vi" Type="VI" URL="../StreamTransmitSyncBox.vi"/>
-		<Item Name="StreamTransmitInstrument.vi" Type="VI" URL="../StreamTransmitInstrument.vi"/>
 		<Item Name="StreamReceiveInstrument.vi" Type="VI" URL="../StreamReceiveInstrument.vi"/>
+		<Item Name="StreamTransmitInstrument.vi" Type="VI" URL="../StreamTransmitInstrument.vi"/>
+		<Item Name="TCP_TransmitToGUI.vi" Type="VI" URL="../TCP_TransmitToGUI.vi"/>
+		<Item Name="TCP_ReceiveFromGUI.vi" Type="VI" URL="../TCP_ReceiveFromGUI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
