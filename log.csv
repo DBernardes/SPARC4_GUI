@@ -1,3 +1,4 @@
+b67b98a; observer; 2022-04-05; Detecção automática de conexão dos 4 canais e do SyncBox
 796005b; observer; 2022-04-04; Conexão com SyncBox detectável pelo SyncBox.lvclass:UpdateComm.vi;; Leds de configuração Ok nos canais 1,2,3 e 4 na aba Eng->Camera.
 f2050e1; observer; 2022-03-25; leds indicadores de comunicação do ICSSoft e channel1 estão funcionando
 75781c5; observer; 2022-03-22; Implementing the TCPIP communication in the GEI
