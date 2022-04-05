@@ -1,0 +1,32 @@
+796005b; observer; 2022-04-04; Conexão com SyncBox detectável pelo SyncBox.lvclass:UpdateComm.vi;; Leds de configuração Ok nos canais 1,2,3 e 4 na aba Eng->Camera.
+f2050e1; observer; 2022-03-25; leds indicadores de comunicação do ICSSoft e channel1 estão funcionando
+75781c5; observer; 2022-03-22; Implementing the TCPIP communication in the GEI
+21b6ae5; Denis; 2022-03-22; Updating GUI
+c6f7d75; Denis; 2022-03-07; Updating GUI
+7228ec1; Denis; 2022-02-25; updating GUI
+6576da7; Denis; 2022-01-25; updating
+ee80614; Denis; 2022-01-20; Updating GUI
+5e478a8; Denis; 2021-09-21; Updated GUI
+9dfcbd0; JSRomao; 2020-12-03; Seleçao do trigger
+21327e7; JSRomao; 2020-11-25; Controles de Width do SyncBox
+d2174aa; JSRomao; 2020-11-25; Controles de Width do SyncBox
+34ac339; JSRomao; 2020-11-12; Reajuste da GUI e dos eventos de atualização dos Delays do Trigger
+b3cf827; JSRomao; 2020-11-09; Icones do trigger
+939191d; JSRomao; 2020-11-09; Controles do delay do SyncBox
+2976308; overducci; 2020-11-05; Merge das versões (Denis e Juliano)
+3428879; JSRomao; 2020-10-30; Adição de vis referente ao SyncNox que naõ estava m no projeto
+13ecfec; JSRomao; 2020-10-09; - Atualizando os icones
+f15cbe5; JSRomao; 2020-10-09; Correção do icone Write Index
+5335ff2; JSRomao; 2020-10-09; Correções
+02d61ba; Denis; 2020-10-08; Delete teste2.txt
+bd53020; Denis; 2020-10-08; teste sync
+c77306c; Denis; 2020-10-08; Create teste.txt
+fd1e07c; JSRomao; 2020-10-06; Inclusão de 6 novos parâmetros
+8a7f20c; overducci; 2020-10-01; S4ACS_GUI
+7be6328; Denis; 2020-10-01; v1.0 1/10
+a172a93; Denis; 2020-10-01; Delete files
+96b6559; overducci; 2020-10-01; Mais uma linha no README
+3739606; overducci; 2020-10-01; Merge pull request #1 from overducci/main
+e5df73c; overducci; 2020-10-01; Update README.md
+cf9eebb; Denis; 2020-10-01; v1.0
+2cc7049; Denis; 2020-10-01; Initial commit
