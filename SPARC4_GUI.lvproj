@@ -19,10 +19,12 @@
 		<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface/Interface.lvclass"/>
 		<Item Name="S4ACS_GUI.lvclass" Type="LVClass" URL="../S4ACS_GUI/S4ACS_GUI.lvclass"/>
 		<Item Name="Server.lvclass" Type="LVClass" URL="../Server/Server.lvclass"/>
+		<Item Name="Telemetry.lvclass" Type="LVClass" URL="../Telemetry/Telemetry.lvclass"/>
 		<Item Name="Setup File.lvclass" Type="LVClass" URL="../SetupFile/Setup File.lvclass"/>
 		<Item Name="State Machine.lvclass" Type="LVClass" URL="../StateMachine/State Machine.lvclass"/>
 		<Item Name="Stream.lvclass" Type="LVClass" URL="../Comm/Stream/Stream.lvclass"/>
 		<Item Name="Sync Box.lvclass" Type="LVClass" URL="../SyncBox/Sync Box.lvclass"/>
+		<Item Name="TCS.lvclass" Type="LVClass" URL="../TCS/TCS.lvclass"/>
 		<Item Name="Trigger.lvclass" Type="LVClass" URL="../Trigger/Trigger.lvclass"/>
 		<Item Name="Optics.lvclass" Type="LVClass" URL="../Device/Optics/Optics.lvclass"/>
 		<Item Name="Opt_Selector.lvclass" Type="LVClass" URL="../Device/Optics/Opt_Selector/Opt_Selector.lvclass"/>
@@ -41,8 +43,8 @@
 		<Item Name="StreamTransmitSyncBox.vi" Type="VI" URL="../StreamTransmitSyncBox.vi"/>
 		<Item Name="StreamReceiveInstrument.vi" Type="VI" URL="../StreamReceiveInstrument.vi"/>
 		<Item Name="StreamTransmitInstrument.vi" Type="VI" URL="../StreamTransmitInstrument.vi"/>
-		<Item Name="TCP_TransmitToGUI.vi" Type="VI" URL="../TCP_TransmitToGUI.vi"/>
-		<Item Name="TCP_ReceiveFromGUI.vi" Type="VI" URL="../TCP_ReceiveFromGUI.vi"/>
+		<Item Name="StreamReceiveTCS.vi" Type="VI" URL="../StreamReceiveTCS.vi"/>
+		<Item Name="StreamTransmitTCS.vi" Type="VI" URL="../StreamTransmitTCS.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -61,6 +63,9 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
