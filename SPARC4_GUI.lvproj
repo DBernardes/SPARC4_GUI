@@ -17,7 +17,7 @@
 		<Item Name="Device.lvclass" Type="LVClass" URL="../Device/Device.lvclass"/>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../Instrument/Instrument.lvclass"/>
 		<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface/Interface.lvclass"/>
-		<Item Name="S4ACS_GUI.lvclass" Type="LVClass" URL="../S4ACS_GUI/S4ACS_GUI.lvclass"/>
+		<Item Name="S4GUI.lvclass" Type="LVClass" URL="../S4GUI/S4GUI.lvclass"/>
 		<Item Name="Server.lvclass" Type="LVClass" URL="../Server/Server.lvclass"/>
 		<Item Name="Telemetry.lvclass" Type="LVClass" URL="../Telemetry/Telemetry.lvclass"/>
 		<Item Name="Setup File.lvclass" Type="LVClass" URL="../SetupFile/Setup File.lvclass"/>
@@ -30,7 +30,7 @@
 		<Item Name="Opt_Selector.lvclass" Type="LVClass" URL="../Device/Optics/Opt_Selector/Opt_Selector.lvclass"/>
 		<Item Name="Opt_Continuous.lvclass" Type="LVClass" URL="../Device/Optics/Opt_Continuous/Opt_Continuous.lvclass"/>
 		<Item Name="JSON reader.lvclass" Type="LVClass" URL="../JSON reader/JSON reader.lvclass"/>
-		<Item Name="S4ACS_GUI.vi" Type="VI" URL="../S4ACS_GUI.vi"/>
+		<Item Name="S4GUI.vi" Type="VI" URL="../S4GUI.vi"/>
 		<Item Name="StreamReceiveAcquisitionChA.vi" Type="VI" URL="../StreamReceiveAcquisitionChA.vi"/>
 		<Item Name="StreamReceiveAcquisitionChB.vi" Type="VI" URL="../StreamReceiveAcquisitionChB.vi"/>
 		<Item Name="StreamReceiveAcquisitionChC.vi" Type="VI" URL="../StreamReceiveAcquisitionChC.vi"/>
