@@ -1,3 +1,4 @@
+463e930; observer; 2022-04-29; 1) implementadas as abas CCD Temp dos 4 canais da GUI; 2) Corrigido o tamanho do Painel da GUI (Auto Grow desabilitado).
 20fa95c; observer; 2022-04-28; Corrigido Trigger:Run.vi (estados 30 a 41). O comando "Fire" não era enviado para o SyncBox durante uma aquisição (Síncrona ou Assíncrona); Implementada a aba "CCD Temp" do canal 1 no Painel Frontal da GUI (falta implementar o Diagrama de Blocos correspondente).
 b67b98a; observer; 2022-04-05; Detecção automática de conexão dos 4 canais e do SyncBox
 796005b; observer; 2022-04-04; Conexão com SyncBox detectável pelo SyncBox.lvclass:UpdateComm.vi;; Leds de configuração Ok nos canais 1,2,3 e 4 na aba Eng->Camera.
