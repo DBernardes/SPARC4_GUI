@@ -31,14 +31,6 @@
 		<Item Name="Opt_Continuous.lvclass" Type="LVClass" URL="../Device/Optics/Opt_Continuous/Opt_Continuous.lvclass"/>
 		<Item Name="JSON reader.lvclass" Type="LVClass" URL="../JSON reader/JSON reader.lvclass"/>
 		<Item Name="S4GUI.vi" Type="VI" URL="../S4GUI.vi"/>
-		<Item Name="StreamReceiveAcquisitionChA.vi" Type="VI" URL="../StreamReceiveAcquisitionChA.vi"/>
-		<Item Name="StreamReceiveAcquisitionChB.vi" Type="VI" URL="../StreamReceiveAcquisitionChB.vi"/>
-		<Item Name="StreamReceiveAcquisitionChC.vi" Type="VI" URL="../StreamReceiveAcquisitionChC.vi"/>
-		<Item Name="StreamReceiveAcquisitionChD.vi" Type="VI" URL="../StreamReceiveAcquisitionChD.vi"/>
-		<Item Name="StreamTransmitAcquisitionChA.vi" Type="VI" URL="../StreamTransmitAcquisitionChA.vi"/>
-		<Item Name="StreamTransmitAcquisitionChB.vi" Type="VI" URL="../StreamTransmitAcquisitionChB.vi"/>
-		<Item Name="StreamTransmitAcquisitionChC.vi" Type="VI" URL="../StreamTransmitAcquisitionChC.vi"/>
-		<Item Name="StreamTransmitAcquisitionChD.vi" Type="VI" URL="../StreamTransmitAcquisitionChD.vi"/>
 		<Item Name="StreamReceiveSyncBox.vi" Type="VI" URL="../StreamReceiveSyncBox.vi"/>
 		<Item Name="StreamTransmitSyncBox.vi" Type="VI" URL="../StreamTransmitSyncBox.vi"/>
 		<Item Name="StreamReceiveInstrument.vi" Type="VI" URL="../StreamReceiveInstrument.vi"/>
@@ -46,7 +38,13 @@
 		<Item Name="StreamReceiveTCS.vi" Type="VI" URL="../StreamReceiveTCS.vi"/>
 		<Item Name="StreamTransmitTCS.vi" Type="VI" URL="../StreamTransmitTCS.vi"/>
 		<Item Name="TCPIP_AcquisitionChA.vi" Type="VI" URL="../TCPIP_AcquisitionChA.vi"/>
+		<Item Name="TCPIP_AcquisitionChB.vi" Type="VI" URL="../TCPIP_AcquisitionChB.vi"/>
+		<Item Name="TCPIP_AcquisitionChC.vi" Type="VI" URL="../TCPIP_AcquisitionChC.vi"/>
+		<Item Name="TCPIP_AcquisitionChD.vi" Type="VI" URL="../TCPIP_AcquisitionChD.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="MsgAbort1.vi" Type="VI" URL="../MsgAbort1.vi"/>
+		<Item Name="MsgStop1.vi" Type="VI" URL="../MsgStop1.vi"/>
+		<Item Name="MsgPause1.vi" Type="VI" URL="../MsgPause1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
