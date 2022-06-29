@@ -45,6 +45,18 @@
 		<Item Name="MsgAbort1.vi" Type="VI" URL="../MsgAbort1.vi"/>
 		<Item Name="MsgStop1.vi" Type="VI" URL="../MsgStop1.vi"/>
 		<Item Name="MsgPause1.vi" Type="VI" URL="../MsgPause1.vi"/>
+		<Item Name="MsgAbort2.vi" Type="VI" URL="../MsgAbort2.vi"/>
+		<Item Name="MsgStop2.vi" Type="VI" URL="../MsgStop2.vi"/>
+		<Item Name="MsgPause2.vi" Type="VI" URL="../MsgPause2.vi"/>
+		<Item Name="MsgAbort3.vi" Type="VI" URL="../MsgAbort3.vi"/>
+		<Item Name="MsgStop3.vi" Type="VI" URL="../MsgStop3.vi"/>
+		<Item Name="MsgPause3.vi" Type="VI" URL="../MsgPause3.vi"/>
+		<Item Name="MsgAbort4.vi" Type="VI" URL="../MsgAbort4.vi"/>
+		<Item Name="MsgStop4.vi" Type="VI" URL="../MsgStop4.vi"/>
+		<Item Name="MsgPause4.vi" Type="VI" URL="../MsgPause4.vi"/>
+		<Item Name="MsgAbortSync.vi" Type="VI" URL="../MsgAbortSync.vi"/>
+		<Item Name="MsgStopSync.vi" Type="VI" URL="../MsgStopSync.vi"/>
+		<Item Name="MsgPauseSync.vi" Type="VI" URL="../MsgPauseSync.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
