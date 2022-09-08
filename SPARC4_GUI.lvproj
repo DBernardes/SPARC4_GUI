@@ -24,6 +24,7 @@
 		<Item Name="State Machine.lvclass" Type="LVClass" URL="../StateMachine/State Machine.lvclass"/>
 		<Item Name="Stream.lvclass" Type="LVClass" URL="../Comm/Stream/Stream.lvclass"/>
 		<Item Name="Sync Box.lvclass" Type="LVClass" URL="../SyncBox/Sync Box.lvclass"/>
+		<Item Name="Log.lvclass" Type="LVClass" URL="../Log/Log.lvclass"/>
 		<Item Name="TCS.lvclass" Type="LVClass" URL="../TCS/TCS.lvclass"/>
 		<Item Name="Trigger.lvclass" Type="LVClass" URL="../Trigger/Trigger.lvclass"/>
 		<Item Name="Optics.lvclass" Type="LVClass" URL="../Device/Optics/Optics.lvclass"/>

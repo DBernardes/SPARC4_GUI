@@ -1,0 +1,490 @@
+8/18/2022 5:09 PM CommandAcquisChA  TX=WRITE_SETUP {"ACQUISITION_MODE":3,"TRIGGER_MODE":2,"READ_MODE":4,"PREAMP":0,"READOUT_RATE":0,"VERTICAL_SHIFT_SPEED":3,"EM_MODE":1,"EM_GAIN":2,"SHUTTER_MODE":2,"SHUTTER_TTL":0,"SHUTTER_OPENING_TIME":1,"SHUTTER_CLOSING_TIME":1,"VBIN":1,"HBIN":1,"INITIAL_LINE":1,"INITIAL_COLUMN":1,"FINAL_LINE":1024,"FINAL_COLUMN":1024,"FRAME_TRANSFER":true,"VERTICAL_CLOCK_VOLTAGE":0,"AD_CHANNEL":0}
+8/18/2022 5:09 PM CommandAcquisChB  TX=WRITE_SETUP {"ACQUISITION_MODE":3,"TRIGGER_MODE":1,"READ_MODE":0,"PREAMP":0,"READOUT_RATE":0,"VERTICAL_SHIFT_SPEED":0,"EM_MODE":1,"EM_GAIN":2,"SHUTTER_MODE":2,"SHUTTER_TTL":0,"SHUTTER_OPENING_TIME":1,"SHUTTER_CLOSING_TIME":1,"VBIN":1,"HBIN":1,"INITIAL_LINE":1,"INITIAL_COLUMN":1,"FINAL_LINE":1024,"FINAL_COLUMN":1024,"FRAME_TRANSFER":true,"VERTICAL_CLOCK_VOLTAGE":0,"AD_CHANNEL":0}
+8/18/2022 5:09 PM CommandAcquisChC  TX=WRITE_SETUP {"ACQUISITION_MODE":3,"TRIGGER_MODE":1,"READ_MODE":0,"PREAMP":0,"READOUT_RATE":0,"VERTICAL_SHIFT_SPEED":0,"EM_MODE":1,"EM_GAIN":2,"SHUTTER_MODE":2,"SHUTTER_TTL":0,"SHUTTER_OPENING_TIME":1,"SHUTTER_CLOSING_TIME":1,"VBIN":1,"HBIN":1,"INITIAL_LINE":1,"INITIAL_COLUMN":1,"FINAL_LINE":1024,"FINAL_COLUMN":1024,"FRAME_TRANSFER":true,"VERTICAL_CLOCK_VOLTAGE":0,"AD_CHANNEL":0}
+8/18/2022 5:09 PM CommandAcquisChD  TX=WRITE_SETUP {"ACQUISITION_MODE":3,"TRIGGER_MODE":1,"READ_MODE":0,"PREAMP":0,"READOUT_RATE":0,"VERTICAL_SHIFT_SPEED":0,"EM_MODE":1,"EM_GAIN":2,"SHUTTER_MODE":2,"SHUTTER_TTL":0,"SHUTTER_OPENING_TIME":1,"SHUTTER_CLOSING_TIME":1,"VBIN":1,"HBIN":1,"INITIAL_LINE":1,"INITIAL_COLUMN":1,"FINAL_LINE":1024,"FINAL_COLUMN":1024,"FRAME_TRANSFER":true,"VERTICAL_CLOCK_VOLTAGE":0,"AD_CHANNEL":0}
+8/18/2022 5:09 PM CommandSyncBox  TX=aset on
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:09 PM CommandSyncBox  TX=bset on
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:09 PM CommandSyncBox  TX=cset on
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:09 PM CommandSyncBox  TX=dset on
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:09 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:09 PM CommandAcquisChA  TX=READ_SETUP 
+8/18/2022 5:09 PM CommandAcquisChB  TX=READ_SETUP 
+8/18/2022 5:09 PM CommandAcquisChC  TX=READ_SETUP 
+8/18/2022 5:09 PM CommandAcquisChD  TX=READ_SETUP 
+8/18/2022 5:09 PM ResponseAcquisChA  RX=CCD_SETUP {"PREAMP":0,"READOUT_RATE":0,"EM_GAIN":2,"VBIN":1,"INITIAL_LINE":1,"INITIAL_COLUMN":1,"FINAL_LINE":1024,"FINAL_COLUMN":1024,"TRIGGER_MODE":1,"HBIN":1,"SHUTTER_TTL":0,"SHUTTER_MODE":2,"SHUTTER_OPENING_TIME":1,"SHUTTER_CLOSING_TIME":1,"VERTICAL_SHIFT_SPEED":3,"READ_MODE":4,"FRAME_TRANSFER":true,"VERTICAL_CLOCK_VOLTAGE":0,"ACQUISITION_MODE":3,"AD_CHANNEL":0,"EM_MODE":1}
+8/18/2022 5:09 PM CommandAcquisChA  TX=SET COOLER_POWER_STATUS 0
+8/18/2022 5:09 PM CommandAcquisChB  TX=SET COOLER_POWER_STATUS 0
+8/18/2022 5:09 PM CommandAcquisChC  TX=SET COOLER_POWER_STATUS 0
+8/18/2022 5:09 PM CommandAcquisChD  TX=SET COOLER_POWER_STATUS 0
+8/18/2022 5:09 PM CommandSyncBox  TX=DDELAY 1600m
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:09 PM CommandSyncBox  TX=DWIDTH 80m
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:09 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:09 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0000000000  SYN 00010000.00
+Gate   OFF  POS  HIZ           Shots 0000000083
+Burst  OFF  N  0000000016   of M  0000000064
+
+Verbos OFF  Autoinstall OFF    Usec 0212477751  DPLL 00011
+Clock  HIZ  Trim 02166         Temp +47.7
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch B  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch C  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch D  POS  ON     Dly  01.600000000000  Wid  00.080000000000
+
+
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:09 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:09 PM CommandSyncBox  TX=DDELAY 1600m
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:09 PM CommandSyncBox  TX=DWIDTH 80m
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:09 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:09 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:09 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:09 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:10 PM CommandSyncBox  TX=DDELAY 1600m
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:10 PM CommandSyncBox  TX=DWIDTH 80m
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:10 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:10 PM CommandSyncBox  TX=DDELAY 1600m
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:10 PM CommandSyncBox  TX=DWIDTH 80m
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:10 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:10 PM CommandSyncBox  TX=DDELAY 1600m
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:10 PM CommandSyncBox  TX=DWIDTH 80m
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:10 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:10 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:10 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:10 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0000000000  SYN 00010000.00
+Gate   OFF  POS  HIZ           Shots 0000000086
+Burst  OFF  N  0000000016   of M  0000000064
+
+Verbos OFF  Autoinstall OFF    Usec 0301314845  DPLL 00010
+Clock  HIZ  Trim 02166         Temp +47.8
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch B  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch C  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch D  POS  ON     Dly  01.600000000000  Wid  00.080000000000
+
+
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:10 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:10 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:10 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:10 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:11 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:11 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:11 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:11 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:12 PM CommandAcquisChA  TX=SET EXPTIME 0.000010
+8/18/2022 5:12 PM CommandAcquisChA  TX=SET #FRAMES 10.000000
+8/18/2022 5:12 PM CommandAcquisChA  TX=SET #CUBES 1.0000 
+8/18/2022 5:12 PM CommandAcquisChA  TX=SET SUFFIX ZERO_extStart
+8/18/2022 5:12 PM CommandAcquisChA  TX=ABORT_ACQUISITION
+8/18/2022 5:12 PM CommandInstrument  TX=S4ICS WPROT STOP NONE,WPSEL NONE NONE,GMIR NONE NONE,GFOC NONE NONE,CALW NONE NONE,ASEL NONE NONE
+
+8/18/2022 5:12 PM ResponseInstrument  RX=WPSEL SIMULATED BUSY 80 OFF 1, WPROT SIMULATED ACK 30 HOME 0, CALW SIMULATED READY 0.0 OFF 1, ASEL SIMULATED READY 0.0 OFF 1, GMIR SIMULATED READY 0.0 HOME 0, GFOC SIMULATED READY 0.0 HOME 0
+
+8/18/2022 5:12 PM CommandAcquisChA  TX=SET EXPTIME 0.000010
+8/18/2022 5:12 PM ResponseAcquisChA  RX=DONE
+8/18/2022 5:12 PM CommandAcquisChA  TX=SET #FRAMES 10.000000
+8/18/2022 5:12 PM ResponseAcquisChA  RX=DONE
+8/18/2022 5:12 PM CommandAcquisChA  TX=SET #CUBES 1.0000 
+8/18/2022 5:12 PM ResponseAcquisChA  RX=DONE
+8/18/2022 5:12 PM CommandAcquisChA  TX=SET SUFFIX ZERO_extStart
+8/18/2022 5:12 PM ResponseAcquisChA  RX=DONE
+8/18/2022 5:12 PM CommandAcquisChA  TX=SET OBSTYPE ZERO
+8/18/2022 5:12 PM ResponseAcquisChA  RX=DONE
+8/18/2022 5:12 PM CommandSyncBox  TX=DDELAY 1600m
+
+8/18/2022 5:12 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:12 PM CommandSyncBox  TX=DWIDTH 80m
+
+8/18/2022 5:12 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:12 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:12 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:12 PM CommandAcquisChA  TX=EXPOSE
+8/18/2022 5:12 PM CommandSyncBox  TX=TRigger REmote
+
+8/18/2022 5:12 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:12 PM CommandSyncBox  TX=TRigger
+
+8/18/2022 5:12 PM ResponseSyncBox  RX=Trig   REM  50R  Level 1.250   Div   0000000000  SYN 00010000.00
+
+8/18/2022 5:12 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:12 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:12 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:12 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:12 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:12 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:13 PM CommandAcquisChA  TX=ABORT_ACQUISITION
+8/18/2022 5:13 PM CommandInstrument  TX=S4ICS WPROT STOP NONE,WPSEL NONE NONE,GMIR NONE NONE,GFOC NONE NONE,CALW NONE NONE,ASEL NONE NONE
+
+8/18/2022 5:13 PM ResponseInstrument  RX=WPSEL SIMULATED BUSY 80 OFF 1, WPROT SIMULATED ACK 30 HOME 0, CALW SIMULATED READY 0.0 OFF 1, ASEL SIMULATED READY 0.0 OFF 1, GMIR SIMULATED READY 0.0 HOME 0, GFOC SIMULATED READY 0.0 HOME 0
+
+8/18/2022 5:13 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:13 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:13 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:13 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:13 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:13 PM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0000000000  SYN 00010000.00
+Gate   OFF  POS  HIZ           Shots 0000000091
+Burst  OFF  N  0000000016   of M  0000000064
+
+Verbos OFF  Autoinstall OFF    Usec 0475005726  DPLL 00008
+Clock  HIZ  Trim 02166         Temp +47.9
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch B  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch C  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch D  POS  ON     Dly  01.600000000000  Wid  00.080000000000
+
+
+
+8/18/2022 5:13 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:13 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:13 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:13 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:13 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:13 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:13 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:13 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:13 PM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0000000000  SYN 00010000.00
+Gate   OFF  POS  HIZ           Shots 0000000093
+Burst  OFF  N  0000000016   of M  0000000064
+
+Verbos OFF  Autoinstall OFF    Usec 0487788062  DPLL 00009
+Clock  HIZ  Trim 02166         Temp +47.9
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch B  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch C  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch D  POS  ON     Dly  01.600000000000  Wid  00.080000000000
+
+
+
+8/18/2022 5:13 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:13 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:13 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:14 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:14 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:14 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:14 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:14 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:14 PM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0000000000  SYN 00010000.00
+Gate   OFF  POS  HIZ           Shots 0000000095
+Burst  OFF  N  0000000016   of M  0000000064
+
+Verbos OFF  Autoinstall OFF    Usec 0495961809  DPLL 00008
+Clock  HIZ  Trim 02166         Temp +47.8
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch B  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch C  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch D  POS  ON     Dly  01.600000000000  Wid  00.080000000000
+
+
+
+8/18/2022 5:14 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:14 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:14 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:14 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:14 PM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0000000000  SYN 00010000.00
+Gate   OFF  POS  HIZ           Shots 0000000096
+Burst  OFF  N  0000000016   of M  0000000064
+
+Verbos OFF  Autoinstall OFF    Usec 0527530628  DPLL 00008
+Clock  HIZ  Trim 02166         Temp +47.9
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch B  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch C  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch D  POS  ON     Dly  01.600000000000  Wid  00.080000000000
+
+
+
+8/18/2022 5:14 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:14 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:14 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:14 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:14 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:14 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:14 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:14 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:14 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:14 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:14 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:14 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:14 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:14 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:14 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:14 PM CommandSyncBox  TX=DDELAY 1600m
+
+8/18/2022 5:14 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:15 PM CommandSyncBox  TX=DWIDTH 80m
+
+8/18/2022 5:15 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:15 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:15 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:15 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:15 PM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0000000000  SYN 00010000.00
+Gate   OFF  POS  HIZ           Shots 0000000100
+Burst  OFF  N  0000000016   of M  0000000064
+
+Verbos OFF  Autoinstall OFF    Usec 0560237009  DPLL 00009
+Clock  HIZ  Trim 02166         Temp +47.9
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch B  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch C  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch D  POS  ON     Dly  01.600000000000  Wid  00.080000000000
+
+
+
+8/18/2022 5:15 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:15 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:15 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:15 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:15 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:15 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:15 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:15 PM CommandSyncBox  TX=FIre
+
+8/18/2022 5:15 PM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0000000000  SYN 00010000.00
+Gate   OFF  POS  HIZ           Shots 0000000102
+Burst  OFF  N  0000000016   of M  0000000064
+
+Verbos OFF  Autoinstall OFF    Usec 0566065797  DPLL 00009
+Clock  HIZ  Trim 02166         Temp +47.9
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch B  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch C  POS  ON     Dly  00.000000000000  Wid  00.800000000000
+Ch D  POS  ON     Dly  01.600000000000  Wid  00.080000000000
+
+
+
+8/18/2022 5:15 PM ResponseSyncBox  RX=OK
+
+8/18/2022 5:15 PM CommandSyncBox  TX=IN
+
+8/18/2022 5:15 PM ResponseSyncBox  RX=OK
+
