@@ -1,3 +1,4 @@
+7e60379; observer; 2022-09-20; Optics:Run.vi atualizado com estado 99 para o caso de erro de timeout na espera de "condition=READY" antes de enviar comando de GOTO.
 e260347; observer; 2022-09-08; Botão SSM (Select Sync Mode) configura automaticamente o Trigger Mode para os 4 canais de ACS: --> Asynchronous: Trigger Mode = Internal (=0) --> Sync by cycle: Trigger Mode = Ext. Start (=6)
 2cf5e1a; observer; 2022-07-25; Comunicação entre GUI e TCS_Sim por ZeroMQ.
 4835d9b; observer; 2022-06-29; Implementado o tratamento dos botões Pause, Stop e Abort para os canais 2, 3 e 4.
