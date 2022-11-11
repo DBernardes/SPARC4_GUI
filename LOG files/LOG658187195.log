@@ -1,0 +1,789 @@
+9/22/2022 10:01 AM CommandAcquisChA  TX=WRITE_SETUP {"ACQUISITION_MODE":3,"TRIGGER_MODE":6,"READ_MODE":4,"PREAMP":0,"READOUT_RATE":0,"VERTICAL_SHIFT_SPEED":3,"EM_MODE":1,"EM_GAIN":2,"SHUTTER_MODE":2,"SHUTTER_TTL":0,"SHUTTER_OPENING_TIME":1,"SHUTTER_CLOSING_TIME":1,"VBIN":1,"HBIN":1,"INITIAL_LINE":1,"INITIAL_COLUMN":1,"FINAL_LINE":1024,"FINAL_COLUMN":1024,"FRAME_TRANSFER":true,"VERTICAL_CLOCK_VOLTAGE":0,"AD_CHANNEL":0}
+9/22/2022 10:01 AM CommandAcquisChB  TX=WRITE_SETUP {"ACQUISITION_MODE":3,"TRIGGER_MODE":0,"READ_MODE":4,"PREAMP":0,"READOUT_RATE":0,"VERTICAL_SHIFT_SPEED":3,"EM_MODE":1,"EM_GAIN":2,"SHUTTER_MODE":2,"SHUTTER_TTL":0,"SHUTTER_OPENING_TIME":1,"SHUTTER_CLOSING_TIME":1,"VBIN":1,"HBIN":1,"INITIAL_LINE":1,"INITIAL_COLUMN":1,"FINAL_LINE":1024,"FINAL_COLUMN":1024,"FRAME_TRANSFER":true,"VERTICAL_CLOCK_VOLTAGE":0,"AD_CHANNEL":0}
+9/22/2022 10:01 AM CommandAcquisChC  TX=WRITE_SETUP {"ACQUISITION_MODE":3,"TRIGGER_MODE":6,"READ_MODE":4,"PREAMP":0,"READOUT_RATE":0,"VERTICAL_SHIFT_SPEED":3,"EM_MODE":1,"EM_GAIN":2,"SHUTTER_MODE":2,"SHUTTER_TTL":0,"SHUTTER_OPENING_TIME":1,"SHUTTER_CLOSING_TIME":1,"VBIN":1,"HBIN":1,"INITIAL_LINE":1,"INITIAL_COLUMN":1,"FINAL_LINE":1024,"FINAL_COLUMN":1024,"FRAME_TRANSFER":true,"VERTICAL_CLOCK_VOLTAGE":0,"AD_CHANNEL":0}
+9/22/2022 10:01 AM CommandAcquisChD  TX=WRITE_SETUP {"ACQUISITION_MODE":3,"TRIGGER_MODE":0,"READ_MODE":4,"PREAMP":0,"READOUT_RATE":0,"VERTICAL_SHIFT_SPEED":3,"EM_MODE":1,"EM_GAIN":2,"SHUTTER_MODE":1,"SHUTTER_TTL":0,"SHUTTER_OPENING_TIME":1,"SHUTTER_CLOSING_TIME":1,"VBIN":1,"HBIN":1,"INITIAL_LINE":1,"INITIAL_COLUMN":1,"FINAL_LINE":1024,"FINAL_COLUMN":1024,"FRAME_TRANSFER":true,"VERTICAL_CLOCK_VOLTAGE":0,"AD_CHANNEL":0}
+9/22/2022 10:01 AM CommandSyncBox  TX=ADELAY 0m
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=BDELAY 0m
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=CDELAY 0m
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=DDELAY 0m
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=AWIDTH 200m
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=BWIDTH 200m
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=CWIDTH 200m
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=DWIDTH 200m
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=aset on
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=bset on
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=cset on
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=dset on
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=IN
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandAcquisChA  TX=READ_SETUP 
+9/22/2022 10:01 AM CommandAcquisChB  TX=READ_SETUP 
+9/22/2022 10:01 AM CommandAcquisChC  TX=READ_SETUP 
+9/22/2022 10:01 AM CommandAcquisChD  TX=READ_SETUP 
+9/22/2022 10:01 AM CommandAcquisChA  TX=SET COOLER_POWER_STATUS 0
+9/22/2022 10:01 AM CommandAcquisChB  TX=SET COOLER_POWER_STATUS 0
+9/22/2022 10:01 AM CommandAcquisChC  TX=SET COOLER_POWER_STATUS 0
+9/22/2022 10:01 AM CommandAcquisChD  TX=SET COOLER_POWER_STATUS 0
+9/22/2022 10:01 AM CommandSyncBox  TX=TRigger POs
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=IN
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=TRigger
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=Trig   POS  50R  Level 1.250   Div   0,000,000,000  SYN 00,010,000.00
+
+9/22/2022 10:01 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=TRigger REmote
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=IN
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=TRigger
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=Trig   REM  50R  Level 1.250   Div   0,000,000,000  SYN 00,010,000.00
+
+9/22/2022 10:01 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:01 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:01 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0,000,000,000  SYN 00,010,000.00
+Gate   OFF  POS  HIZ           Shots 0,000,000,080
+Burst  OFF  N  0,000,000,016   of M  0,000,000,064
+
+Verbos ON   Autoinstall FEOD   Usec 1,769,955,332  DPLL 00014
+Clock  OUT  Trim 02166         Temp +42.8
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000,000,000,000  Wid  00.200,000,000,000
+Ch B  POS  ON     Dly  00.000,000,000,000  Wid  00.200,000,000,000
+Ch C  POS  ON     Dly  00.000,000,000,000  Wid  00.200,000,000,000
+Ch D  POS  ON     Dly  00.000,000,000,000  Wid  00.200,000,000,000
+
+
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=ADELAY 0m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0,000,000,000  SYN 00,010,000.00
+Gate   OFF  POS  HIZ           Shots 0,000,000,081
+Burst  OFF  N  0,000,000,016   of M  0,000,000,064
+
+Verbos ON   Autoinstall FEOD   Usec 1,778,239,390  DPLL 00014
+Clock  OUT  Trim 02166         Temp +42.8
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000,000,000,000  Wid  00.200,000,000,000
+Ch B  POS  ON     Dly  00.000,000,000,000  Wid  00.200,000,000,000
+Ch C  POS  ON     Dly  00.000,000,000,000  Wid  00.200,000,000,000
+Ch D  POS  ON     Dly  00.000,000,000,000  Wid  00.200,000,000,000
+
+
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=BDELAY 0m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=CDELAY 0m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=DDELAY 0m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=AWIDTH 200m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=BWIDTH 200m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=CWIDTH 200m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=DWIDTH 200m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=aset on
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=bset on
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=cset on
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=dset on
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=IN
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=ADELAY 0m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=BDELAY 0m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=CDELAY 0m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=DDELAY 0m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=AWIDTH 1000m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=BWIDTH 500m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=CWIDTH 200m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=DWIDTH 100m
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=aset on
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=bset on
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=cset on
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=dset on
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=IN
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=TRigger POs
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=IN
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=TRigger
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=Trig   POS  50R  Level 1.250   Div   0,000,000,000  SYN 00,010,000.00
+
+9/22/2022 10:02 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:02 AM CommandSyncBox  TX=TRigger REmote
+
+9/22/2022 10:03 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:03 AM CommandSyncBox  TX=IN
+
+9/22/2022 10:03 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:03 AM CommandSyncBox  TX=TRigger
+
+9/22/2022 10:03 AM ResponseSyncBox  RX=Trig   REM  50R  Level 1.250   Div   0,000,000,000  SYN 00,010,000.00
+
+9/22/2022 10:03 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:03 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:03 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:03 AM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0,000,000,000  SYN 00,010,000.00
+Gate   OFF  POS  HIZ           Shots 0,000,000,082
+Burst  OFF  N  0,000,000,016   of M  0,000,000,064
+
+Verbos ON   Autoinstall FEOD   Usec 1,842,074,295  DPLL 00013
+Clock  OUT  Trim 02166         Temp +42.9
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000,000,000,000  Wid  01.000,000,000,000
+Ch B  POS  ON     Dly  00.000,000,000,000  Wid  00.500,000,000,000
+Ch C  POS  ON     Dly  00.000,000,000,000  Wid  00.200,000,000,000
+Ch D  POS  ON     Dly  00.000,000,000,000  Wid  00.100,000,000,000
+
+
+
+9/22/2022 10:03 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:03 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:03 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:03 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:03 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:05 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:05 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:05 AM CommandSyncBox  TX=ADELAY 0m
+
+9/22/2022 10:05 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:05 AM CommandSyncBox  TX=BDELAY 0m
+
+9/22/2022 10:05 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:05 AM CommandSyncBox  TX=CDELAY 0m
+
+9/22/2022 10:05 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:05 AM CommandSyncBox  TX=DDELAY 0m
+
+9/22/2022 10:05 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:05 AM CommandSyncBox  TX=AWIDTH 1000m
+
+9/22/2022 10:05 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:05 AM CommandSyncBox  TX=BWIDTH 500m
+
+9/22/2022 10:05 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:05 AM CommandSyncBox  TX=CWIDTH 200m
+
+9/22/2022 10:05 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:05 AM CommandSyncBox  TX=DWIDTH 100m
+
+9/22/2022 10:05 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:05 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:05 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:05 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:05 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:05 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:05 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:06 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:06 AM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0,000,000,000  SYN 00,010,000.00
+Gate   OFF  POS  HIZ           Shots 0,000,000,087
+Burst  OFF  N  0,000,000,016   of M  0,000,000,064
+
+Verbos ON   Autoinstall FEOD   Usec 2,038,810,602  DPLL 00013
+Clock  OUT  Trim 02166         Temp +43.2
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000,000,000,000  Wid  01.000,000,000,000
+Ch B  POS  ON     Dly  00.000,000,000,000  Wid  00.500,000,000,000
+Ch C  POS  ON     Dly  00.000,000,000,000  Wid  00.200,000,000,000
+Ch D  POS  ON     Dly  00.000,000,000,000  Wid  00.100,000,000,000
+
+
+
+9/22/2022 10:06 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:21 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:21 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:26 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:26 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:27 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:27 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:28 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:28 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:28 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:28 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:28 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:28 AM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0,000,000,000  SYN 00,010,000.00
+Gate   OFF  POS  HIZ           Shots 0,000,000,092
+Burst  OFF  N  0,000,000,016   of M  0,000,000,064
+
+Verbos ON   Autoinstall FEOD   Usec 3,352,805,840  DPLL 00011
+Clock  OUT  Trim 02166         Temp +44.5
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000,000,000,000  Wid  01.000,000,000,000
+Ch B  POS  ON     Dly  00.000,000,000,000  Wid  00.500,000,000,000
+Ch C  POS  ON     Dly  00.000,000,000,000  Wid  00.200,000,000,000
+Ch D  POS  ON     Dly  00.000,000,000,000  Wid  00.100,000,000,000
+
+
+
+9/22/2022 10:28 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:36 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:36 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:36 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:36 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:36 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:36 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:37 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:37 AM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0,000,000,000  SYN 00,010,000.00
+Gate   OFF  POS  HIZ           Shots 0,000,000,096
+Burst  OFF  N  0,000,000,016   of M  0,000,000,064
+
+Verbos ON   Autoinstall FEOD   Usec 3,867,752,042  DPLL 00015
+Clock  OUT  Trim 02166         Temp +44.3
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000,000,000,000  Wid  01.000,000,000,000
+Ch B  POS  ON     Dly  00.000,000,000,000  Wid  00.500,000,000,000
+Ch C  POS  ON     Dly  00.000,000,000,000  Wid  00.200,000,000,000
+Ch D  POS  ON     Dly  00.000,000,000,000  Wid  00.100,000,000,000
+
+
+
+9/22/2022 10:37 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:37 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:37 AM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0,000,000,000  SYN 00,010,000.00
+Gate   OFF  POS  HIZ           Shots 0,000,000,097
+Burst  OFF  N  0,000,000,016   of M  0,000,000,064
+
+Verbos ON   Autoinstall FEOD   Usec 3,869,820,522  DPLL 00016
+Clock  OUT  Trim 02166         Temp +44.2
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000,000,000,000  Wid  01.000,000,000,000
+Ch B  POS  ON     Dly  00.000,000,000,000  Wid  00.500,000,000,000
+Ch C  POS  ON     Dly  00.000,000,000,000  Wid  00.200,000,000,000
+Ch D  POS  ON     Dly  00.000,000,000,000  Wid  00.100,000,000,000
+
+
+
+9/22/2022 10:37 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:38 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:38 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:38 AM CommandSyncBox  TX=FIre
+
+9/22/2022 10:38 AM ResponseSyncBox  RX=
+
+     Highland Technology  Model T560  Digital Delay Generator
+
+Firmware 28E560-D  02407                Cal date July 19, 2018      
+
+Trig   REM  50R  Level 1.250   Div   0,000,000,000  SYN 00,010,000.00
+Gate   OFF  POS  HIZ           Shots 0,000,000,099
+Burst  OFF  N  0,000,000,016   of M  0,000,000,064
+
+Verbos ON   Autoinstall FEOD   Usec 3,965,672,349  DPLL 00016
+Clock  OUT  Trim 02166         Temp +44.1
+
+Errs   None
+
+Ch A  POS  ON     Dly  00.000,000,000,000  Wid  01.000,000,000,000
+Ch B  POS  ON     Dly  00.000,000,000,000  Wid  00.500,000,000,000
+Ch C  POS  ON     Dly  00.000,000,000,000  Wid  00.200,000,000,000
+Ch D  POS  ON     Dly  00.000,000,000,000  Wid  00.100,000,000,000
+
+
+
+9/22/2022 10:38 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:54 AM CommandAcquisChA  TX=WRITE_SETUP {"ACQUISITION_MODE":3,"TRIGGER_MODE":0,"READ_MODE":4,"PREAMP":0,"READOUT_RATE":0,"VERTICAL_SHIFT_SPEED":3,"EM_MODE":1,"EM_GAIN":2,"SHUTTER_MODE":2,"SHUTTER_TTL":0,"SHUTTER_OPENING_TIME":1,"SHUTTER_CLOSING_TIME":1,"VBIN":1,"HBIN":1,"INITIAL_LINE":1,"INITIAL_COLUMN":1,"FINAL_LINE":1024,"FINAL_COLUMN":1024,"FRAME_TRANSFER":true,"VERTICAL_CLOCK_VOLTAGE":0,"AD_CHANNEL":0}
+9/22/2022 10:54 AM CommandAcquisChB  TX=WRITE_SETUP {"ACQUISITION_MODE":3,"TRIGGER_MODE":0,"READ_MODE":4,"PREAMP":0,"READOUT_RATE":0,"VERTICAL_SHIFT_SPEED":3,"EM_MODE":1,"EM_GAIN":2,"SHUTTER_MODE":2,"SHUTTER_TTL":0,"SHUTTER_OPENING_TIME":1,"SHUTTER_CLOSING_TIME":1,"VBIN":1,"HBIN":1,"INITIAL_LINE":1,"INITIAL_COLUMN":1,"FINAL_LINE":1024,"FINAL_COLUMN":1024,"FRAME_TRANSFER":true,"VERTICAL_CLOCK_VOLTAGE":0,"AD_CHANNEL":0}
+9/22/2022 10:54 AM CommandAcquisChC  TX=WRITE_SETUP {"ACQUISITION_MODE":3,"TRIGGER_MODE":0,"READ_MODE":4,"PREAMP":0,"READOUT_RATE":0,"VERTICAL_SHIFT_SPEED":3,"EM_MODE":1,"EM_GAIN":2,"SHUTTER_MODE":2,"SHUTTER_TTL":0,"SHUTTER_OPENING_TIME":1,"SHUTTER_CLOSING_TIME":1,"VBIN":1,"HBIN":1,"INITIAL_LINE":1,"INITIAL_COLUMN":1,"FINAL_LINE":1024,"FINAL_COLUMN":1024,"FRAME_TRANSFER":true,"VERTICAL_CLOCK_VOLTAGE":0,"AD_CHANNEL":0}
+9/22/2022 10:54 AM CommandAcquisChA  TX=READ_SETUP 
+9/22/2022 10:54 AM CommandAcquisChB  TX=READ_SETUP 
+9/22/2022 10:54 AM CommandAcquisChC  TX=READ_SETUP 
+9/22/2022 10:54 AM ResponseAcquisChC  RX=CCD_SETUP {"PREAMP":0,"READOUT_RATE":0,"EM_GAIN":2,"VBIN":1,"INITIAL_LINE":1,"INITIAL_COLUMN":1,"FINAL_LINE":1024,"FINAL_COLUMN":1024,"TRIGGER_MODE":0,"HBIN":1,"SHUTTER_TTL":0,"SHUTTER_MODE":2,"SHUTTER_OPENING_TIME":1,"SHUTTER_CLOSING_TIME":1,"VERTICAL_SHIFT_SPEED":3,"READ_MODE":4,"FRAME_TRANSFER":true,"VERTICAL_CLOCK_VOLTAGE":0,"ACQUISITION_MODE":3,"AD_CHANNEL":0,"EM_MODE":1}
+9/22/2022 10:54 AM ResponseAcquisChA  RX=CCD_SETUP {"PREAMP":0,"READOUT_RATE":0,"EM_GAIN":2,"VBIN":1,"INITIAL_LINE":1,"INITIAL_COLUMN":1,"FINAL_LINE":1024,"FINAL_COLUMN":1024,"TRIGGER_MODE":0,"HBIN":1,"SHUTTER_TTL":0,"SHUTTER_MODE":2,"SHUTTER_OPENING_TIME":1,"SHUTTER_CLOSING_TIME":1,"VERTICAL_SHIFT_SPEED":3,"READ_MODE":4,"FRAME_TRANSFER":true,"VERTICAL_CLOCK_VOLTAGE":0,"ACQUISITION_MODE":3,"AD_CHANNEL":0,"EM_MODE":1}
+9/22/2022 10:54 AM CommandAcquisChA  TX=SET COOLER_POWER_STATUS 0
+9/22/2022 10:54 AM ResponseAcquisChB  RX=CCD_SETUP {"PREAMP":0,"READOUT_RATE":0,"EM_GAIN":2,"VBIN":1,"INITIAL_LINE":1,"INITIAL_COLUMN":1,"FINAL_LINE":1024,"FINAL_COLUMN":1024,"TRIGGER_MODE":0,"HBIN":1,"SHUTTER_TTL":0,"SHUTTER_MODE":2,"SHUTTER_OPENING_TIME":1,"SHUTTER_CLOSING_TIME":1,"VERTICAL_SHIFT_SPEED":3,"READ_MODE":4,"FRAME_TRANSFER":true,"VERTICAL_CLOCK_VOLTAGE":0,"ACQUISITION_MODE":3,"AD_CHANNEL":0,"EM_MODE":1}
+9/22/2022 10:54 AM CommandAcquisChB  TX=SET COOLER_POWER_STATUS 0
+9/22/2022 10:54 AM CommandAcquisChC  TX=SET COOLER_POWER_STATUS 0
+9/22/2022 10:54 AM ResponseAcquisChC  RX=DONE
+9/22/2022 10:54 AM ResponseAcquisChA  RX=DONE
+9/22/2022 10:54 AM ResponseAcquisChB  RX=DONE
+9/22/2022 10:54 AM CommandSyncBox  TX=ADELAY 0m
+
+9/22/2022 10:54 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:54 AM CommandSyncBox  TX=BDELAY 0m
+
+9/22/2022 10:54 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:54 AM CommandSyncBox  TX=CDELAY 0m
+
+9/22/2022 10:54 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:54 AM CommandSyncBox  TX=DDELAY 0m
+
+9/22/2022 10:54 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:54 AM CommandSyncBox  TX=AWIDTH 200m
+
+9/22/2022 10:54 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:54 AM CommandSyncBox  TX=BWIDTH 200m
+
+9/22/2022 10:54 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:54 AM CommandSyncBox  TX=CWIDTH 200m
+
+9/22/2022 10:54 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:54 AM CommandSyncBox  TX=DWIDTH 200m
+
+9/22/2022 10:54 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:54 AM CommandSyncBox  TX=aset on
+
+9/22/2022 10:54 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:54 AM CommandSyncBox  TX=bset on
+
+9/22/2022 10:54 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:54 AM CommandSyncBox  TX=cset on
+
+9/22/2022 10:54 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:54 AM CommandSyncBox  TX=dset on
+
+9/22/2022 10:54 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:54 AM CommandSyncBox  TX=IN
+
+9/22/2022 10:54 AM ResponseSyncBox  RX=OK
+
+9/22/2022 10:55 AM CommandAcquisChA  TX=SET EXPTIME 1.000000
+9/22/2022 10:55 AM ResponseAcquisChA  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChA  TX=SET #FRAMES 10.000000
+9/22/2022 10:55 AM CommandAcquisChA  TX=SET #CUBES 1.0000 
+9/22/2022 10:55 AM ResponseAcquisChA  RX=DONE
+9/22/2022 10:55 AM ResponseAcquisChA  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChA  TX=SET SUFFIX 
+9/22/2022 10:55 AM ResponseAcquisChA  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChA  TX=SET OBSTYPE OBJECT
+9/22/2022 10:55 AM ResponseAcquisChA  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChA  TX=EXPOSE
+9/22/2022 10:55 AM CommandAcquisChB  TX=SET EXPTIME 1.000000
+9/22/2022 10:55 AM ResponseAcquisChB  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChB  TX=SET #FRAMES 12.000000
+9/22/2022 10:55 AM ResponseAcquisChB  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChB  TX=SET #CUBES 1.0000 
+9/22/2022 10:55 AM CommandAcquisChB  TX=SET SUFFIX 
+9/22/2022 10:55 AM ResponseAcquisChB  RX=DONE
+9/22/2022 10:55 AM ResponseAcquisChB  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChB  TX=SET OBSTYPE OBJECT
+9/22/2022 10:55 AM ResponseAcquisChB  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChB  TX=EXPOSE
+9/22/2022 10:55 AM CommandAcquisChC  TX=SET EXPTIME 1.000000
+9/22/2022 10:55 AM ResponseAcquisChC  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChC  TX=SET #FRAMES 1.000000
+9/22/2022 10:55 AM ResponseAcquisChC  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChC  TX=SET #CUBES 1.0000 
+9/22/2022 10:55 AM ResponseAcquisChC  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChC  TX=SET SUFFIX 
+9/22/2022 10:55 AM ResponseAcquisChC  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChC  TX=SET OBSTYPE OBJECT
+9/22/2022 10:55 AM ResponseAcquisChC  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChC  TX=EXPOSE
+9/22/2022 10:55 AM CommandAcquisChC  TX=SET EXPTIME 1.000000
+9/22/2022 10:55 AM ResponseAcquisChC  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChC  TX=SET #FRAMES 10.000000
+9/22/2022 10:55 AM ResponseAcquisChC  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChC  TX=SET #CUBES 1.0000 
+9/22/2022 10:55 AM ResponseAcquisChC  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChC  TX=SET SUFFIX 
+9/22/2022 10:55 AM ResponseAcquisChC  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChC  TX=SET OBSTYPE OBJECT
+9/22/2022 10:55 AM ResponseAcquisChC  RX=DONE
+9/22/2022 10:55 AM CommandAcquisChC  TX=EXPOSE
+9/22/2022 10:55 AM CommandAcquisChB  TX=ABORT_ACQUISITION
+9/22/2022 10:56 AM CommandAcquisChB  TX=SET EXPTIME 1.000000
+9/22/2022 10:56 AM CommandAcquisChB  TX=ABORT_ACQUISITION
+9/22/2022 10:56 AM CommandAcquisChB  TX=SET EXPTIME 1.000000
+9/22/2022 10:56 AM CommandAcquisChB  TX=SET #FRAMES 12.000000
+9/22/2022 10:56 AM CommandAcquisChB  TX=SET #CUBES 1.0000 
+9/22/2022 10:56 AM CommandAcquisChB  TX=SET SUFFIX 
+9/22/2022 10:56 AM CommandAcquisChB  TX=ABORT_ACQUISITION
+9/22/2022 11:02 AM CommandSyncBox  TX=ADELAY 0m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=BDELAY 0m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=CDELAY 0m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=DDELAY 0m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=AWIDTH 200m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=BWIDTH 500m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=CWIDTH 200m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=DWIDTH 200m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=aset on
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=bset on
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=cset on
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=dset on
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=IN
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=ADELAY 0m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=BDELAY 0m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=CDELAY 0m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=DDELAY 0m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=AWIDTH 200m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=BWIDTH 200m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=CWIDTH 200m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=DWIDTH 200m
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=aset on
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=bset on
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=cset on
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=dset on
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandSyncBox  TX=IN
+
+9/22/2022 11:02 AM ResponseSyncBox  RX=OK
+
+9/22/2022 11:02 AM CommandAcquisChB  TX=SET EXPTIME 1.000000
+9/22/2022 11:02 AM ResponseAcquisChB  RX=DONE
+9/22/2022 11:02 AM CommandAcquisChB  TX=SET #FRAMES 2.000000
+9/22/2022 11:02 AM CommandAcquisChB  TX=SET #CUBES 1.0000 
+9/22/2022 11:02 AM ResponseAcquisChB  RX=DONE
+9/22/2022 11:02 AM CommandAcquisChB  TX=SET SUFFIX 
+9/22/2022 11:02 AM ResponseAcquisChB  RX=DONE
+9/22/2022 11:02 AM CommandAcquisChB  TX=SET OBSTYPE OBJECT
+9/22/2022 11:02 AM ResponseAcquisChB  RX=DONE
+9/22/2022 11:02 AM ResponseAcquisChB  RX=DONE
+9/22/2022 11:02 AM CommandAcquisChB  TX=EXPOSE
+9/22/2022 11:02 AM CommandAcquisChC  TX=SET EXPTIME 1.000000
+9/22/2022 11:02 AM ResponseAcquisChC  RX=DONE
+9/22/2022 11:02 AM CommandAcquisChC  TX=SET #FRAMES 10.000000
+9/22/2022 11:02 AM ResponseAcquisChC  RX=DONE
+9/22/2022 11:02 AM CommandAcquisChC  TX=SET #CUBES 1.0000 
+9/22/2022 11:02 AM ResponseAcquisChC  RX=DONE
+9/22/2022 11:02 AM CommandAcquisChC  TX=SET SUFFIX 
+9/22/2022 11:02 AM ResponseAcquisChC  RX=DONE
+9/22/2022 11:02 AM CommandAcquisChC  TX=SET OBSTYPE OBJECT
+9/22/2022 11:02 AM ResponseAcquisChC  RX=DONE
+9/22/2022 11:02 AM CommandAcquisChC  TX=EXPOSE
+9/22/2022 11:03 AM CommandAcquisChA  TX=SET EXPTIME 1.000000
+9/22/2022 11:03 AM ResponseAcquisChA  RX=DONE
+9/22/2022 11:03 AM CommandAcquisChA  TX=SET #FRAMES 10.000000
+9/22/2022 11:03 AM ResponseAcquisChA  RX=DONE
+9/22/2022 11:03 AM CommandAcquisChA  TX=SET #CUBES 1.0000 
+9/22/2022 11:03 AM ResponseAcquisChA  RX=DONE
+9/22/2022 11:03 AM CommandAcquisChA  TX=SET SUFFIX 
+9/22/2022 11:03 AM ResponseAcquisChA  RX=DONE
+9/22/2022 11:03 AM CommandAcquisChA  TX=SET OBSTYPE OBJECT
+9/22/2022 11:03 AM ResponseAcquisChA  RX=DONE
+9/22/2022 11:03 AM CommandAcquisChA  TX=EXPOSE
+9/22/2022 11:03 AM CommandAcquisChB  TX=ABORT_ACQUISITION
