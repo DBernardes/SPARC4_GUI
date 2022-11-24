@@ -1,3 +1,4 @@
+3b7cbe2; observer; 2022-11-24; nesta versão
 3946a20; observer; 2022-11-11; Ajuste das janelas do LabVIEW para nova resolução de video.
 7e60379; observer; 2022-09-20; Optics:Run.vi atualizado com estado 99 para o caso de erro de timeout na espera de "condition=READY" antes de enviar comando de GOTO.
 e260347; observer; 2022-09-08; Botão SSM (Select Sync Mode) configura automaticamente o Trigger Mode para os 4 canais de ACS: --> Asynchronous: Trigger Mode = Internal (=0) --> Sync by cycle: Trigger Mode = Ext. Start (=6)
