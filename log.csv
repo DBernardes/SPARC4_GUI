@@ -1,3 +1,4 @@
+62ac051; observer; 2023-03-17; Implementations
 3b7cbe2; observer; 2022-11-24; nesta versão
 3946a20; observer; 2022-11-11; Ajuste das janelas do LabVIEW para nova resolução de video.
 7e60379; observer; 2022-09-20; Optics:Run.vi atualizado com estado 99 para o caso de erro de timeout na espera de "condition=READY" antes de enviar comando de GOTO.
