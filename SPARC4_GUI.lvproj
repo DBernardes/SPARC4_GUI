@@ -31,7 +31,9 @@
 		<Item Name="Opt_Selector.lvclass" Type="LVClass" URL="../Device/Optics/Opt_Selector/Opt_Selector.lvclass"/>
 		<Item Name="Opt_Continuous.lvclass" Type="LVClass" URL="../Device/Optics/Opt_Continuous/Opt_Continuous.lvclass"/>
 		<Item Name="JSON reader.lvclass" Type="LVClass" URL="../JSON reader/JSON reader.lvclass"/>
+		<Item Name="GuiderSetup.lvclass" Type="LVClass" URL="../GuiderSetup/GuiderSetup.lvclass"/>
 		<Item Name="S4GUI.vi" Type="VI" URL="../S4GUI.vi"/>
+		<Item Name="GuiderSetupGUI.vi" Type="VI" URL="../GuiderSetupGUI.vi"/>
 		<Item Name="StreamReceiveSyncBox.vi" Type="VI" URL="../StreamReceiveSyncBox.vi"/>
 		<Item Name="StreamTransmitSyncBox.vi" Type="VI" URL="../StreamTransmitSyncBox.vi"/>
 		<Item Name="StreamReceiveInstrument.vi" Type="VI" URL="../StreamReceiveInstrument.vi"/>
@@ -59,6 +61,9 @@
 		<Item Name="MsgAbortSync.vi" Type="VI" URL="../MsgAbortSync.vi"/>
 		<Item Name="MsgStopSync.vi" Type="VI" URL="../MsgStopSync.vi"/>
 		<Item Name="MsgPauseSync.vi" Type="VI" URL="../MsgPauseSync.vi"/>
+		<Item Name="Indicador lamina.vi" Type="VI" URL="../Indicador lamina.vi"/>
+		<Item Name="StreamReceiveInstrumentGS.vi" Type="VI" URL="../StreamReceiveInstrumentGS.vi"/>
+		<Item Name="StreamTransmitInstrumentGS.vi" Type="VI" URL="../StreamTransmitInstrumentGS.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -76,7 +81,6 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
@@ -107,6 +111,7 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
 			<Item Name="Get Status.vi" Type="VI" URL="../SyncBox/Get Status.vi"/>
 			<Item Name="zeromq.lvlib" Type="Library" URL="../../../../ZeroMQ-labview/File Group 0/vi.lib/addons/zeromq/zeromq.lvlib"/>
