@@ -18,6 +18,7 @@
 		<Item Name="Device.lvclass" Type="LVClass" URL="../Device/Device.lvclass"/>
 		<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface/Interface.lvclass"/>
 		<Item Name="S4GUI.lvclass" Type="LVClass" URL="../S4GUI/S4GUI.lvclass"/>
+		<Item Name="GuiderSetup.lvclass" Type="LVClass" URL="../GuiderSetup/GuiderSetup.lvclass"/>
 		<Item Name="Server.lvclass" Type="LVClass" URL="../Server/Server.lvclass"/>
 		<Item Name="Telemetry.lvclass" Type="LVClass" URL="../Telemetry/Telemetry.lvclass"/>
 		<Item Name="Setup File.lvclass" Type="LVClass" URL="../SetupFile/Setup File.lvclass"/>
@@ -26,18 +27,21 @@
 		<Item Name="Sync Box.lvclass" Type="LVClass" URL="../SyncBox/Sync Box.lvclass"/>
 		<Item Name="Log.lvclass" Type="LVClass" URL="../Log/Log.lvclass"/>
 		<Item Name="TCS.lvclass" Type="LVClass" URL="../TCS/TCS.lvclass"/>
+		<Item Name="AG.lvclass" Type="LVClass" URL="../AG/AG.lvclass"/>
 		<Item Name="Trigger.lvclass" Type="LVClass" URL="../Trigger/Trigger.lvclass"/>
+		<Item Name="angles.lvclass" Type="LVClass" URL="../Device/angles/angles.lvclass"/>
 		<Item Name="Optics.lvclass" Type="LVClass" URL="../Device/Optics/Optics.lvclass"/>
 		<Item Name="Opt_Selector.lvclass" Type="LVClass" URL="../Device/Optics/Opt_Selector/Opt_Selector.lvclass"/>
 		<Item Name="Opt_Continuous.lvclass" Type="LVClass" URL="../Device/Optics/Opt_Continuous/Opt_Continuous.lvclass"/>
 		<Item Name="JSON reader.lvclass" Type="LVClass" URL="../JSON reader/JSON reader.lvclass"/>
-		<Item Name="GuiderSetup.lvclass" Type="LVClass" URL="../GuiderSetup/GuiderSetup.lvclass"/>
 		<Item Name="S4GUI.vi" Type="VI" URL="../S4GUI.vi"/>
 		<Item Name="GuiderSetupGUI.vi" Type="VI" URL="../GuiderSetupGUI.vi"/>
 		<Item Name="StreamReceiveSyncBox.vi" Type="VI" URL="../StreamReceiveSyncBox.vi"/>
 		<Item Name="StreamTransmitSyncBox.vi" Type="VI" URL="../StreamTransmitSyncBox.vi"/>
 		<Item Name="StreamReceiveInstrument.vi" Type="VI" URL="../StreamReceiveInstrument.vi"/>
 		<Item Name="StreamTransmitInstrument.vi" Type="VI" URL="../StreamTransmitInstrument.vi"/>
+		<Item Name="StreamReceiveTCS-RS232.vi" Type="VI" URL="../StreamReceiveTCS-RS232.vi"/>
+		<Item Name="StreamTransmitTCS-RS232.vi" Type="VI" URL="../StreamTransmitTCS-RS232.vi"/>
 		<Item Name="StreamReceiveTCS.vi" Type="VI" URL="../StreamReceiveTCS.vi"/>
 		<Item Name="StreamTransmitTCS.vi" Type="VI" URL="../StreamTransmitTCS.vi"/>
 		<Item Name="ZeroMQ_TCS.vi" Type="VI" URL="../ZeroMQ_TCS.vi"/>
@@ -45,6 +49,7 @@
 		<Item Name="TCPIP_AcquisitionChB.vi" Type="VI" URL="../TCPIP_AcquisitionChB.vi"/>
 		<Item Name="TCPIP_AcquisitionChC.vi" Type="VI" URL="../TCPIP_AcquisitionChC.vi"/>
 		<Item Name="TCPIP_AcquisitionChD.vi" Type="VI" URL="../TCPIP_AcquisitionChD.vi"/>
+		<Item Name="ServerTCPIP_Autoguider2016.vi" Type="VI" URL="../ServerTCPIP_Autoguider2016.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="MsgAbort1.vi" Type="VI" URL="../MsgAbort1.vi"/>
 		<Item Name="MsgStop1.vi" Type="VI" URL="../MsgStop1.vi"/>
@@ -64,6 +69,8 @@
 		<Item Name="Indicador lamina.vi" Type="VI" URL="../Indicador lamina.vi"/>
 		<Item Name="StreamReceiveInstrumentGS.vi" Type="VI" URL="../StreamReceiveInstrumentGS.vi"/>
 		<Item Name="StreamTransmitInstrumentGS.vi" Type="VI" URL="../StreamTransmitInstrumentGS.vi"/>
+		<Item Name="Control 1.ctl" Type="VI" URL="../Control 1.ctl"/>
+		<Item Name="VerifOnePos.vi" Type="VI" URL="../S4GUI/VerifOnePos.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
