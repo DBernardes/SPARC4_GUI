@@ -13,31 +13,28 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Config" Type="Folder">
 			<Item Name="comm.cfg" Type="Document" URL="../Config/comm.cfg"/>
-			<Item Name="comm2.cfg" Type="Document" URL="../Config/comm2.cfg"/>
 			<Item Name="default.cfg" Type="Document" URL="../Config/default.cfg"/>
-			<Item Name="denis.cfg" Type="Document" URL="../Config/denis.cfg"/>
 			<Item Name="lastFocusTable.cfg" Type="Document" URL="../Config/lastFocusTable.cfg"/>
 			<Item Name="lastsaved.cfg" Type="Document" URL="../Config/lastsaved.cfg"/>
 			<Item Name="lasttemp.cfg" Type="Document" URL="../Config/lasttemp.cfg"/>
-			<Item Name="orlando.cfg" Type="Document" URL="../Config/orlando.cfg"/>
 		</Item>
 		<Item Name="LOG files" Type="Folder"/>
 		<Item Name="Msg VIs" Type="Folder">
-			<Item Name="MsgAbort1.vi" Type="VI" URL="../Msg VIs/MsgAbort1.vi"/>
-			<Item Name="MsgAbort2.vi" Type="VI" URL="../Msg VIs/MsgAbort2.vi"/>
-			<Item Name="MsgAbort3.vi" Type="VI" URL="../Msg VIs/MsgAbort3.vi"/>
-			<Item Name="MsgAbort4.vi" Type="VI" URL="../Msg VIs/MsgAbort4.vi"/>
-			<Item Name="MsgAbortSync.vi" Type="VI" URL="../Msg VIs/MsgAbortSync.vi"/>
-			<Item Name="MsgPause1.vi" Type="VI" URL="../Msg VIs/MsgPause1.vi"/>
-			<Item Name="MsgPause2.vi" Type="VI" URL="../Msg VIs/MsgPause2.vi"/>
-			<Item Name="MsgPause3.vi" Type="VI" URL="../Msg VIs/MsgPause3.vi"/>
-			<Item Name="MsgPause4.vi" Type="VI" URL="../Msg VIs/MsgPause4.vi"/>
-			<Item Name="MsgPauseSync.vi" Type="VI" URL="../Msg VIs/MsgPauseSync.vi"/>
-			<Item Name="MsgStop1.vi" Type="VI" URL="../Msg VIs/MsgStop1.vi"/>
-			<Item Name="MsgStop2.vi" Type="VI" URL="../Msg VIs/MsgStop2.vi"/>
-			<Item Name="MsgStop3.vi" Type="VI" URL="../Msg VIs/MsgStop3.vi"/>
-			<Item Name="MsgStop4.vi" Type="VI" URL="../Msg VIs/MsgStop4.vi"/>
-			<Item Name="MsgStopSync.vi" Type="VI" URL="../Msg VIs/MsgStopSync.vi"/>
+			<Item Name="MsgAbortSync.vi" Type="VI" URL="../MsgAbortSync.vi"/>
+			<Item Name="MsgPauseSync.vi" Type="VI" URL="../MsgPauseSync.vi"/>
+			<Item Name="MsgStopSync.vi" Type="VI" URL="../MsgStopSync.vi"/>
+			<Item Name="MsgAbort1.vi" Type="VI" URL="../MsgAbort1.vi"/>
+			<Item Name="MsgAbort2.vi" Type="VI" URL="../MsgAbort2.vi"/>
+			<Item Name="MsgAbort3.vi" Type="VI" URL="../MsgAbort3.vi"/>
+			<Item Name="MsgAbort4.vi" Type="VI" URL="../MsgAbort4.vi"/>
+			<Item Name="MsgPause1.vi" Type="VI" URL="../MsgPause1.vi"/>
+			<Item Name="MsgPause2.vi" Type="VI" URL="../MsgPause2.vi"/>
+			<Item Name="MsgPause3.vi" Type="VI" URL="../MsgPause3.vi"/>
+			<Item Name="MsgPause4.vi" Type="VI" URL="../MsgPause4.vi"/>
+			<Item Name="MsgStop1.vi" Type="VI" URL="../MsgStop1.vi"/>
+			<Item Name="MsgStop2.vi" Type="VI" URL="../MsgStop2.vi"/>
+			<Item Name="MsgStop3.vi" Type="VI" URL="../MsgStop3.vi"/>
+			<Item Name="MsgStop4.vi" Type="VI" URL="../MsgStop4.vi"/>
 		</Item>
 		<Item Name="ZeroMQ" Type="Folder">
 			<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
@@ -70,6 +67,7 @@
 			<Item Name="StreamTransmitSyncBox.vi" Type="VI" URL="../StreamTransmitSyncBox.vi"/>
 			<Item Name="StreamTransmitTCS.vi" Type="VI" URL="../StreamTransmitTCS.vi"/>
 			<Item Name="StreamTransmitTCS-RS232.vi" Type="VI" URL="../StreamTransmitTCS-RS232.vi"/>
+			<Item Name="ServerTCPIP_Autoguider2016.vi" Type="VI" URL="../ServerTCPIP_Autoguider2016.vi"/>
 			<Item Name="TCP_ReceiveFromGUI.vi" Type="VI" URL="../TCP_ReceiveFromGUI.vi"/>
 			<Item Name="TCP_TransmitToGUI.vi" Type="VI" URL="../TCP_TransmitToGUI.vi"/>
 			<Item Name="TCPIP_AcquisitionChA.vi" Type="VI" URL="../TCPIP_AcquisitionChA.vi"/>
@@ -82,11 +80,14 @@
 			<Item Name="ZeroMQ_ACS4.vi" Type="VI" URL="../ZeroMQ_ACS4.vi"/>
 			<Item Name="ZeroMQ_FOC.vi" Type="VI" URL="../ZeroMQ_FOC.vi"/>
 			<Item Name="ZeroMQ_GS.vi" Type="VI" URL="../ZeroMQ_GS.vi"/>
-			<Item Name="ZeroMQ_PUB.vi" Type="VI" URL="../Comm VIs/ZeroMQ_PUB.vi"/>
+			<Item Name="ZeroMQ_PUB.vi" Type="VI" URL="../ZeroMQ_PUB.vi"/>
 			<Item Name="ZeroMQ_ReqRep_TCS.vi" Type="VI" URL="../ZeroMQ_ReqRep_TCS.vi"/>
 			<Item Name="ZeroMQ_S4ICS.vi" Type="VI" URL="../ZeroMQ_S4ICS.vi"/>
 			<Item Name="ZeroMQ_TCS.vi" Type="VI" URL="../ZeroMQ_TCS.vi"/>
 			<Item Name="ZeroMQ_WSTA.vi" Type="VI" URL="../ZeroMQ_WSTA.vi"/>
+			<Item Name="ZeroMQ_PUBGS.vi" Type="VI" URL="../ZeroMQ_PUBGS.vi"/>
+			<Item Name="ZeroMQ_ReqRep_generic.vi" Type="VI" URL="../ZeroMQ_ReqRep_generic.vi"/>
+			<Item Name="ZeroMQ_SUBGS.vi" Type="VI" URL="../ZeroMQ_SUBGS.vi"/>
 		</Item>
 		<Item Name="S4GUI.vi" Type="VI" URL="../S4GUI.vi"/>
 		<Item Name="GuiderSetupGUI.vi" Type="VI" URL="../GuiderSetupGUI.vi"/>
@@ -117,11 +118,13 @@
 		<Item Name="angles.lvclass" Type="LVClass" URL="../Device/angles/angles.lvclass"/>
 		<Item Name="Client.lvclass" Type="LVClass" URL="../Client/Client.lvclass"/>
 		<Item Name="Publisher.lvclass" Type="LVClass" URL="../Publisher/Publisher.lvclass"/>
+		<Item Name="GSserver.lvclass" Type="LVClass" URL="../GSserver/GSserver.lvclass"/>
+		<Item Name="GSstatus.lvclass" Type="LVClass" URL="../GSstatus/GSstatus.lvclass"/>
+		<Item Name="PublisherGS.lvclass" Type="LVClass" URL="../PublisherGS/PublisherGS.lvclass"/>
 		<Item Name="Indicador lamina.vi" Type="VI" URL="../Indicador lamina.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="VerifOnePos.vi" Type="VI" URL="../S4GUI/VerifOnePos.vi"/>
 		<Item Name="Control 1.ctl" Type="VI" URL="../Control 1.ctl"/>
-		<Item Name="LoadCommParam.vi" Type="VI" URL="../LoadCommParam.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -169,8 +172,8 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
+			<Item Name="LoadCommParam.vi" Type="VI" URL="../LoadCommParam.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Instalador S4GUI" Type="Installer">
@@ -252,203 +255,281 @@
 			</Item>
 			<Item Name="S4GUI" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{BD069B61-FC3E-47AE-8176-00C432194564}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{DA12F1A5-F422-4463-8528-978636338719}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{277DB953-52E4-4394-AA19-0C446F5AAA76}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{F091FF81-6F3E-4541-B78F-6AD31F2EE5D9}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{6F21E561-D5CF-4E2B-9A92-F541292B0BB2}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{91E95C91-1E24-45E7-9D4D-A894C5AF0EB9}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">S4GUI</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/S4GUI</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/S4GUI</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{EC470579-DAE3-4E24-8566-D0B622C8D04B}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{3746E8ED-76B3-4BA2-AE52-1EDB3C3BC379}</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">s4gui.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/S4GUI/s4gui.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/S4GUI/s4gui.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/S4GUI/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3D8FEDF6-0371-4322-81D7-750282F71B48}</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/S4GUI/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[2].destName" Type="Str">Config</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/S4GUI/Config</Property>
+				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[3].destName" Type="Str">LOG files</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/S4GUI/LOG files</Property>
+				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BB754001-FA26-4DF8-8564-29367CA0C43F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Config</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[1].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/S4GUI.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/ZeroMQ/lvzmq32.dll</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveInstrument.vi</Property>
+				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/ZeroMQ/lvzmq32.exp</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveInstrumentGS.vi</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/ZeroMQ/lvzmq32.lib</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveSyncBox.vi</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/ZeroMQ/msvcp120.dll</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveTCS.vi</Property>
+				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/ZeroMQ/msvcr120.dll</Property>
-				<Property Name="Source[15].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[15].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[15].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/ZeroMQ</Property>
-				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[15].type" Type="Str">Container</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveTCS-RS232.vi</Property>
+				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitAcquisitionChA.vi</Property>
+				<Property Name="Source[15].type" Type="Str">VI</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveAcquisitionChA.vi</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitAcquisitionChB.vi</Property>
 				<Property Name="Source[16].type" Type="Str">VI</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveAcquisitionChB.vi</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitAcquisitionChC.vi</Property>
 				<Property Name="Source[17].type" Type="Str">VI</Property>
 				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveAcquisitionChC.vi</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitAcquisitionChD.vi</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveAcquisitionChD.vi</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitInstrument.vi</Property>
 				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LOG files</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Config</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveInstrument.vi</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitInstrumentGS.vi</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveInstrumentGS.vi</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitSyncBox.vi</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveSyncBox.vi</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitTCS.vi</Property>
 				<Property Name="Source[22].type" Type="Str">VI</Property>
 				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveTCS.vi</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitTCS-RS232.vi</Property>
 				<Property Name="Source[23].type" Type="Str">VI</Property>
 				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveTCS-RS232.vi</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/CommVIs/ServerTCPIP_Autoguider2016.vi</Property>
 				<Property Name="Source[24].type" Type="Str">VI</Property>
 				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitAcquisitionChA.vi</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/CommVIs/TCP_ReceiveFromGUI.vi</Property>
 				<Property Name="Source[25].type" Type="Str">VI</Property>
 				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitAcquisitionChB.vi</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/CommVIs/TCP_TransmitToGUI.vi</Property>
 				<Property Name="Source[26].type" Type="Str">VI</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitAcquisitionChC.vi</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/CommVIs/TCPIP_AcquisitionChA.vi</Property>
 				<Property Name="Source[27].type" Type="Str">VI</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitAcquisitionChD.vi</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/CommVIs/TCPIP_AcquisitionChB.vi</Property>
 				<Property Name="Source[28].type" Type="Str">VI</Property>
 				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[29].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitInstrument.vi</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/CommVIs/TCPIP_AcquisitionChC.vi</Property>
 				<Property Name="Source[29].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Msg VIs</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LOG files</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[30].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitInstrumentGS.vi</Property>
+				<Property Name="Source[30].itemID" Type="Ref">/My Computer/CommVIs/TCPIP_AcquisitionChD.vi</Property>
 				<Property Name="Source[30].type" Type="Str">VI</Property>
 				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[31].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitSyncBox.vi</Property>
+				<Property Name="Source[31].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_ACS1.vi</Property>
 				<Property Name="Source[31].type" Type="Str">VI</Property>
 				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[32].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitTCS.vi</Property>
+				<Property Name="Source[32].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_ACS2.vi</Property>
 				<Property Name="Source[32].type" Type="Str">VI</Property>
 				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[33].itemID" Type="Ref">/My Computer/CommVIs/StreamTransmitTCS-RS232.vi</Property>
+				<Property Name="Source[33].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_ACS3.vi</Property>
 				<Property Name="Source[33].type" Type="Str">VI</Property>
 				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[34].itemID" Type="Ref">/My Computer/CommVIs/TCP_ReceiveFromGUI.vi</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_ACS4.vi</Property>
 				<Property Name="Source[34].type" Type="Str">VI</Property>
 				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[35].itemID" Type="Ref">/My Computer/CommVIs/TCP_TransmitToGUI.vi</Property>
+				<Property Name="Source[35].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_FOC.vi</Property>
 				<Property Name="Source[35].type" Type="Str">VI</Property>
 				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[36].itemID" Type="Ref">/My Computer/CommVIs/TCPIP_AcquisitionChA.vi</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_GS.vi</Property>
 				<Property Name="Source[36].type" Type="Str">VI</Property>
 				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[37].itemID" Type="Ref">/My Computer/CommVIs/TCPIP_AcquisitionChB.vi</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_PUB.vi</Property>
 				<Property Name="Source[37].type" Type="Str">VI</Property>
 				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[38].itemID" Type="Ref">/My Computer/CommVIs/TCPIP_AcquisitionChC.vi</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_ReqRep_TCS.vi</Property>
 				<Property Name="Source[38].type" Type="Str">VI</Property>
 				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[39].itemID" Type="Ref">/My Computer/CommVIs/TCPIP_AcquisitionChD.vi</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_S4ICS.vi</Property>
 				<Property Name="Source[39].type" Type="Str">VI</Property>
+				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/S4GUI.vi</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Msg VIs</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[40].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[40].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_ACS1.vi</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_TCS.vi</Property>
 				<Property Name="Source[40].type" Type="Str">VI</Property>
 				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[41].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_ACS2.vi</Property>
+				<Property Name="Source[41].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_WSTA.vi</Property>
 				<Property Name="Source[41].type" Type="Str">VI</Property>
 				<Property Name="Source[42].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[42].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_ACS3.vi</Property>
+				<Property Name="Source[42].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_PUBGS.vi</Property>
 				<Property Name="Source[42].type" Type="Str">VI</Property>
 				<Property Name="Source[43].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[43].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_ACS4.vi</Property>
+				<Property Name="Source[43].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_SUBGS.vi</Property>
 				<Property Name="Source[43].type" Type="Str">VI</Property>
+				<Property Name="Source[44].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[44].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[44].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[44].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[44].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_FOC.vi</Property>
-				<Property Name="Source[44].type" Type="Str">VI</Property>
-				<Property Name="Source[45].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[45].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_GS.vi</Property>
-				<Property Name="Source[45].type" Type="Str">VI</Property>
-				<Property Name="Source[46].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[46].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_PUB.vi</Property>
-				<Property Name="Source[46].type" Type="Str">VI</Property>
-				<Property Name="Source[47].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[47].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_ReqRep_TCS.vi</Property>
-				<Property Name="Source[47].type" Type="Str">VI</Property>
-				<Property Name="Source[48].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[48].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_S4ICS.vi</Property>
-				<Property Name="Source[48].type" Type="Str">VI</Property>
-				<Property Name="Source[49].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[49].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_TCS.vi</Property>
-				<Property Name="Source[49].type" Type="Str">VI</Property>
+				<Property Name="Source[44].itemID" Type="Ref">/My Computer/CommVIs</Property>
+				<Property Name="Source[44].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[44].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/ZeroMQ/zeromq.lvlib</Property>
-				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[5].type" Type="Str">Library</Property>
-				<Property Name="Source[50].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[50].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_WSTA.vi</Property>
-				<Property Name="Source[50].type" Type="Str">VI</Property>
-				<Property Name="Source[51].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[51].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[51].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[51].itemID" Type="Ref">/My Computer/CommVIs</Property>
-				<Property Name="Source[51].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[51].type" Type="Str">Container</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/ZeroMQ</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/ZeroMQ/libsodium.dll</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveAcquisitionChA.vi</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/ZeroMQ/libzmq32.dll</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveAcquisitionChB.vi</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/ZeroMQ/libzmq-v120-mt-4_3_2.dll</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveAcquisitionChC.vi</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/ZeroMQ/libzmq-v120-mt-4_3_2.lib</Property>
-				<Property Name="SourceCount" Type="Int">52</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/CommVIs/StreamReceiveAcquisitionChD.vi</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">45</Property>
 				<Property Name="TgtF_companyName" Type="Str">LNA-Laboratório Nacional de Astrofísica</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">S4GUI</Property>
 				<Property Name="TgtF_internalName" Type="Str">S4GUI</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 LNA-Laboratório Nacional de Astrofísica</Property>
 				<Property Name="TgtF_productName" Type="Str">S4GUI</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{C083686B-F06C-4D5D-BA4C-5BBA69DED9AB}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{41EFD463-F28D-43F2-BE1F-21890FF298F6}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">s4gui.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="GuiderSetup" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{63BFDF99-1B42-44AD-9F04-6092752CA433}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{E8321183-9C50-4DCB-AC8F-57BA4EDB2ACB}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D8623615-C0F3-41B0-A282-8E0B3DB4DEA0}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GuiderSetup</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/GuiderSetup</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A7E5BD1A-959F-4F59-B4CC-43DC468EB447}</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GuiderSetup.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/GuiderSetup/GuiderSetup.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/GuiderSetup/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[2].destName" Type="Str">Config</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/GuiderSetup/Config</Property>
+				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[3].destName" Type="Str">LOG files</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/GuiderSetup/LOG files</Property>
+				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A714D3D7-3B13-426C-A2E0-65A91C23E8F6}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GuiderSetupGUI.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/CommVIs/ServerTCPIP_Autoguider2016.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/CommVIs/ZeroMQ_GS.vi</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Config</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LOG files</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/ZeroMQ</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/CommVIs</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="TgtF_companyName" Type="Str">LNA-Laboratório Nacional de Astrofísica</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GuiderSetup</Property>
+				<Property Name="TgtF_internalName" Type="Str">GuiderSetup</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 LNA-Laboratório Nacional de Astrofísica</Property>
+				<Property Name="TgtF_productName" Type="Str">GuiderSetup</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{713FDE7E-D980-4309-9E6D-AE8385C26C27}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GuiderSetup.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

@@ -1,0 +1,298 @@
+[ACS1]
+ID = 0
+Address = "200.131.64.171"
+ServiceName1 = "C1_GUI"
+ServiceName2 = "C1_ACS"
+Port1 = 0
+Port2 = 0
+QueueNameRX ="ResponseAcquisChA"
+QueueNameTX ="CommandAcquisChA"
+fileComm1 = "TCPIP_AcquisitionChA.vi" 
+fileComm2 = "" 
+
+[ACS2]
+ID = 1
+Address = "200.131.64.172"
+ServiceName1 = "C2_GUI"
+ServiceName2 = "C2_ACS"
+Port1 = 0
+Port2 = 0
+QueueNameRX="ResponseAcquisChB"
+QueueNameTX="CommandAcquisChB"
+fileComm1 = "TCPIP_AcquisitionChB.vi" 
+fileComm2 = "" 
+
+[ACS3]
+ID = 2
+Address = "200.131.64.173"
+ServiceName1 = "C3_GUI"
+ServiceName2 = "C3_ACS"
+Port1 = 0
+Port2 = 0
+QueueNameRX="ResponseAcquisChC"
+QueueNameTX="CommandAcquisChC"
+fileComm1 = "TCPIP_AcquisitionChC.vi" 
+fileComm2 = "" 
+
+[ACS4]
+ID = 3
+Address = "200.131.64.174"
+ServiceName1 = "C4_GUI"
+ServiceName2 = "C4_ACS"
+Port1 = 0
+Port2 = 0
+QueueNameRX="ResponseAcquisChD"
+QueueNameTX="CommandAcquisChD"
+fileComm1 = "TCPIP_AcquisitionChD.vi" 
+fileComm2 = "" 
+
+[SYNCBOX]
+ID = 4
+Address = "192.168.1.15"
+ServiceName1 = ""
+ServiceName2 = ""
+Port1 = 2000
+Port2 = 0
+QueueNameRX="ResponseSyncBox"
+QueueNameTX="CommandSyncBox"
+fileComm1 = "StreamReceiveSyncBox.vi" 
+fileComm2 = "StreamTransmitSyncBox.vi" 
+
+[ICS_S4GUI]
+ID = 5
+Address = "200.131.64.81"
+ServiceName1 = ""
+ServiceName2 = ""
+Port1 = 54030
+Port2 = 54031
+QueueNameRX="ResponseInstrument"
+QueueNameTX="CommandInstrument"
+fileComm1 = "ZeroMQ_S4ICS.vi" 
+fileComm2 = ""
+
+[TCSPD]
+ID = 6
+Address = "200.131.64.236"
+ServiceName1 = ""
+ServiceName2 = ""
+Port1 = 50350
+Port2 = 50351
+QueueNameRX="ResponseTCS"
+QueueNameTX="CommandTCS"
+fileComm1 = "ZeroMQ_TCS.vi" 
+fileComm2 = "" 
+
+[ICS_GS]
+ID = 7
+Address = "200.131.64.81"
+ServiceName1 = ""
+ServiceName2 = ""
+Port1 = 54030
+Port2 = 54031
+QueueNameRX="ResponseInstrumentGS"
+QueueNameTX="CommandInstrumentGS"
+fileComm1 = "ZeroMQ_GS.vi" 
+fileComm2 = ""
+
+[Server_AG]
+ID = 8
+Address = "200.131.64.81"
+ServiceName1 = ""
+ServiceName2 = ""
+Port1 = 54200
+Port2 = 0
+QueueNameRX="CommandFromAG"
+QueueNameTX="ResponseToAG"
+fileComm1 = "ServerTCPIP_Autoguider2016.vi" 
+fileComm2 = "" 
+
+[Focus_160]
+ID = 9
+Address = "200.131.64.81"
+ServiceName1 = ""
+ServiceName2 = ""
+Port1 = 7001
+Port2 = 7002
+QueueNameRX="ResponseFOC"
+QueueNameTX="CommandFOC"
+fileComm1 = "ZeroMQ_FOC.vi" 
+fileComm2 = "" 
+
+[WS]  
+ID = 10
+Address = "200.131.64.237"
+ServiceName1 = ""
+ServiceName2 = ""
+Port1 = 7005
+Port2 = 7006
+QueueNameRX="ResponseWSTA"
+QueueNameTX="CommandWSTA"
+fileComm1 = "ZeroMQ_WSTA.vi" 
+fileComm2 = "" 
+
+[PUB]  
+ID = 11
+Address = "200.131.64.81"
+ServiceName1 = ""
+ServiceName2 = ""
+Port1 = 5555
+Port2 = 5556
+QueueNameRX="ReqPUB"
+QueueNameTX="StatusPUB"
+fileComm1 = "ZeroMQ_PUB.vi" 
+fileComm2 = "" 
+
+[SUB_GS]  
+ID = 12
+Address =  "200.131.64.81"
+ServiceName1 = ""
+ServiceName2 = ""
+Port1 = 5557
+Port2 = 5558
+QueueNameRX="StatusSUBGS"
+QueueNameTX="CommandSUBGS"
+fileComm1 = "ZeroMQ_SUBGS.vi" 
+fileComm2 = "" 
+
+[PUB_GS]  
+ID = 13
+Address =  "200.131.64.81"
+ServiceName1 = ""
+ServiceName2 = ""
+Port1 = 5557
+Port2 = 5558
+QueueNameRX="CommandPUBGS"
+QueueNameTX="StatusPUBGS"
+fileComm1 = "ZeroMQ_PUBGS.vi" 
+fileComm2 = "" 
+
+
+[ZMQ_ACS1]
+ID = 0
+Address = "200.131.64.81"
+ServiceName1 = ""
+ServiceName2 = ""
+Port1 = 5555
+Port2 = 5556
+QueueNameRX="ResponseACS1"
+QueueNameTX="CommandACS1"
+fileComm1 = "ZeroMQ_ACS1.vi" 
+fileComm2 = "" 
+
+[ZMQ_ACS2]
+ID = 1
+Address = "200.131.64.81"
+ServiceName1 = ""
+ServiceName2 = ""
+Port1 = 5555
+Port2 = 5556
+QueueNameRX="ResponseACS2"
+QueueNameTX="CommandACS2"
+fileComm1 = "ZeroMQ_ACS2.vi" 
+fileComm2 = "" 
+
+[ZMQ_ACS3]
+ID = 2
+Address = "200.131.64.81"
+ServiceName1 = ""
+ServiceName2 = ""
+Port1 = 5555
+Port2 = 5556
+QueueNameRX="ResponseACS3"
+QueueNameTX="CommandACS3"
+fileComm1 = "ZeroMQ_ACS3.vi" 
+fileComm2 = "" 
+
+[ZMQ_ACS4]
+ID = 3
+Address = "200.131.64.81"
+ServiceName1 = ""
+ServiceName2 = ""
+Port1 = 5555
+Port2 = 5556
+QueueNameRX="ResponseACS4"
+QueueNameTX="CommandACS4"
+fileComm1 = "ZeroMQ_ACS4.vi" 
+fileComm2 = "" 
+
+
+[formato JSON do status TCSPD]
+Status =
+{
+	"broker": "TCSPD160",
+	"version": "20240131",
+	"objectName": "HR7009         ",
+	"raAcquis": "18:38:06",
+	"decAcquis": "+39:40:05",
+	"epochAcquis": "2000.0",
+	"airMass": "1.001",
+	"julianDate": "2460339.29232",
+	"sideralTime": "00:32:42",
+	"hourAngle": "00:00:18",
+	"date": "29/01/24",
+	"time": "16:00:57",
+	"rightAscention": "00 32 24",
+	"declination": "-20 41 15",
+	"guideStr": "29/01/24 00:32:42 00 32 24 -20 41 15",
+	"guideAng": "   0.10",
+	"guideNor": " 180.00",
+	"guideEsp": "S",
+	"guideCas": "S",
+	"guidePlaca": "0.200",
+	"statShutter": "",
+	"posCup": "",
+	"raOnTarget": false,
+	"decOnTarget": false,
+	"dome": false,
+	"domeOnTarget": false,
+	"guider": false,
+	"mount": false,
+	"grossMovement": false,
+	"fineMovement": false,
+	"objCentrado": false,
+	"varTracking": false,
+	"shutter": false
+}
+
+[Weather Station JSON]
+{
+ "broker": "Weather160", 
+ "version": "1.0.0", 
+ "date": "29/01/24",
+ "hour": "15:55",
+ "outHumidity": "73",
+ "inHumidity": "67",
+ "inTemp": "21.1",
+ "outTemp": "22.2",
+ "windSpeed": "9.7",
+ "windDirection": "WNW",
+ "pressure": "755.7",
+ "dewOut": "17.1",
+ "dewIn": "16.3",
+ "leaf": "0",
+ "rain": "0.00",
+ "windChill": "22.2"
+}
+
+[Focuser JSON]
+{
+ "absolute": true,
+ "alarm": 0,
+ "broker": "Focuser160",
+ "cmd": {"clientId": 0, "clientTransactionId": 0, "clientName": "", "action": ""},
+ "connected": true, 
+ "controller": "Focuser160",
+ "device": "2ndMirror",
+ "error": "",
+ "homing": false,
+ "initialized": true,
+ "isMoving": false,
+ "maxSpeed": 500,
+ "maxStep": 50700,
+ "position": 16000,
+ "tempComp": false,
+ "tempCompAvailable": false,
+ "temperature": 0,
+ "timestamp": "2024-01-29T16:01:16.031",
+ "version": "1.0.0"
+}
