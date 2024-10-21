@@ -12,7 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Config" Type="Folder">
-			<Item Name="comm.cfg" Type="Document" URL="../Config/comm.cfg"/>
+			<Item Name="comm.CFG" Type="Document" URL="../../../../../../observer/sparc4/s4gui/Config/comm.CFG"/>
 			<Item Name="default.cfg" Type="Document" URL="../Config/default.cfg"/>
 			<Item Name="lastFocusTable.cfg" Type="Document" URL="../Config/lastFocusTable.cfg"/>
 			<Item Name="lastsaved.cfg" Type="Document" URL="../Config/lastsaved.cfg"/>
@@ -39,7 +39,6 @@
 		<Item Name="ZeroMQ" Type="Folder">
 			<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			<Item Name="libsodium.dll" Type="Document" URL="/&lt;vilib&gt;/addons/zeromq/lib/win32/libsodium.dll"/>
-			<Item Name="libzmq32.dll" Type="Document" URL="/&lt;vilib&gt;/addons/zeromq/lib/win32/libzmq32.dll"/>
 			<Item Name="libzmq-v120-mt-4_3_2.dll" Type="Document" URL="/&lt;vilib&gt;/addons/zeromq/lib/win32/libzmq-v120-mt-4_3_2.dll"/>
 			<Item Name="libzmq-v120-mt-4_3_2.lib" Type="Document" URL="/&lt;vilib&gt;/addons/zeromq/lib/win32/libzmq-v120-mt-4_3_2.lib"/>
 			<Item Name="lvzmq32.dll" Type="Document" URL="/&lt;vilib&gt;/addons/zeromq/lib/win32/lvzmq32.dll"/>
@@ -79,6 +78,7 @@
 			<Item Name="ZeroMQ_ACS3.vi" Type="VI" URL="../ZeroMQ_ACS3.vi"/>
 			<Item Name="ZeroMQ_ACS4.vi" Type="VI" URL="../ZeroMQ_ACS4.vi"/>
 			<Item Name="ZeroMQ_FOC.vi" Type="VI" URL="../ZeroMQ_FOC.vi"/>
+			<Item Name="ZeroMQ_FOC_REQREP.vi" Type="VI" URL="../ZeroMQ_FOC_REQREP.vi"/>
 			<Item Name="ZeroMQ_GS.vi" Type="VI" URL="../ZeroMQ_GS.vi"/>
 			<Item Name="ZeroMQ_PUB.vi" Type="VI" URL="../ZeroMQ_PUB.vi"/>
 			<Item Name="ZeroMQ_ReqRep_TCS.vi" Type="VI" URL="../ZeroMQ_ReqRep_TCS.vi"/>
@@ -172,6 +172,7 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
 			<Item Name="LoadCommParam.vi" Type="VI" URL="../LoadCommParam.vi"/>
 		</Item>
@@ -268,7 +269,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3746E8ED-76B3-4BA2-AE52-1EDB3C3BC379}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">s4gui.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/S4GUI/s4gui.exe</Property>
@@ -285,7 +286,7 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/S4GUI/LOG files</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BB754001-FA26-4DF8-8564-29367CA0C43F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E84B4942-25F2-439E-AF5A-C009F2F71889}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/S4GUI.vi</Property>
@@ -465,7 +466,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7E5BD1A-959F-4F59-B4CC-43DC468EB447}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GuiderSetup.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/GuiderSetup/GuiderSetup.exe</Property>
@@ -482,7 +483,7 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/GuiderSetup/LOG files</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A714D3D7-3B13-426C-A2E0-65A91C23E8F6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0A8901BE-9691-4CBF-A456-A42B5FBCDB6F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GuiderSetupGUI.vi</Property>
