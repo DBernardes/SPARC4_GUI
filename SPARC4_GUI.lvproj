@@ -269,7 +269,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3746E8ED-76B3-4BA2-AE52-1EDB3C3BC379}</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">s4gui.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/S4GUI/s4gui.exe</Property>
@@ -286,7 +286,7 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/S4GUI/LOG files</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E84B4942-25F2-439E-AF5A-C009F2F71889}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BD4DB7DC-48B8-4051-B13D-F9D11F552E30}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/S4GUI.vi</Property>
@@ -466,7 +466,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7E5BD1A-959F-4F59-B4CC-43DC468EB447}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GuiderSetup.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/GuiderSetup/GuiderSetup.exe</Property>
@@ -483,7 +483,7 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/GuiderSetup/LOG files</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0A8901BE-9691-4CBF-A456-A42B5FBCDB6F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BD4DB7DC-48B8-4051-B13D-F9D11F552E30}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GuiderSetupGUI.vi</Property>
