@@ -269,7 +269,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3746E8ED-76B3-4BA2-AE52-1EDB3C3BC379}</Property>
-				<Property Name="Bld_version.build" Type="Int">29</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">s4gui.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/S4GUI/s4gui.exe</Property>
@@ -466,7 +466,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7E5BD1A-959F-4F59-B4CC-43DC468EB447}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GuiderSetup.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/GuiderSetup/GuiderSetup.exe</Property>
